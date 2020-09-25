@@ -9,6 +9,15 @@ namespace StarChart.Data
 
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
+            //CelestialObjects.AddRange(new CelestialObject
+            //{
+            //    Id = 1,
+            //    Name = "Sun"
+            //},
+            //new CelestialObject{
+            //    Id = 2,
+            //    Name = "Moon"
+            //});
         }
     }
 }
